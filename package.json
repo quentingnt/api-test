@@ -1,0 +1,28 @@
+{
+  "name": "lattis-api",
+  "version": "1.0.0",
+  "description": "Web API for lattis",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=development node index.js"
+  },
+  "author": "Quentin GNT",
+  "license": "MIT license",
+  "dependencies": {
+    "bcrypt": "^3.0.5",
+    "bunyan": "^1.8.12",
+    "config": "^3.1.0",
+    "helmet": "^3.16.0",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.16.0",
+    "restify": "^8.2.0",
+    "sequelize": "^5.2.12"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "proxyquire": "^2.1.0",
+    "sinon": "^7.3.1",
+    "sinon-chai": "^3.3.0",
+    "sinon-stub-promise": "^4.0.0"
+  }
+}
